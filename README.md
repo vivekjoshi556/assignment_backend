@@ -10,11 +10,11 @@ This is an assignment Project. This repository contains the backend code for the
 - Install Mysql on your system [[Guide](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/)].
 - To get started with this project you either download this project manually or using git.
 
-        > git clone git@github.com:vivekjoshi556/assignment_backend.git
+        git clone git@github.com:vivekjoshi556/assignment_backend.git
 
 - Once downloaded go into the folder and use this command to install dependencies:
 
-        > composer install
+        composer install
 
 - Once the dependencies are downloaded set the environment variables. To do so create a .env from and copy the content from .env.example to your .env file.
 - Change the key values appropriately.
@@ -22,9 +22,13 @@ This is an assignment Project. This repository contains the backend code for the
 - Setup database settings in your .env file.
 - Then go back to your terminal and run 
 
-        > php artisan migrate:fresh --seed
+        php artisan migrate:fresh --seed
 
     This will create all the required tables and set the required data in your database for you.
+
+- To run the project just run the command:
+
+        php artisan serve
 
 ## Endpoints
 
